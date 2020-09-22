@@ -1,0 +1,94 @@
+#Main-nav {
+  display: flex;
+  position: relative;
+}
+
+.logon{
+  width: 55px;
+  height: 55px;
+  background-size: 55px 55px;
+  background: url(./MainNavImg/logo-footer.png);
+  margin-top: 22px;
+  margin-right: 7px;
+}
+.logon:before{
+  transform: translateZ(0);
+  width: 55px;
+  height: 55px;
+  background-size: 55px 55px;
+  background: url(./MainNavImg/mi-logo.png);
+  z-index: 1;
+  transition: all .2s;
+}
+.logon:after{
+  transform: translateZ(0);
+  width: 55px;
+  height: 55px;
+  background-size: 55px 55px;
+  background: url(./MainNavImg/mi-home.png);
+  z-index: 1;
+  transition: all .2s;
+}
+
+.Main-menu-wrapper {
+  padding: 12px 0px 0px 30px;
+  display: flex;
+}
+
+.Main-menu-category {
+  width: 127px;
+  height: 88px;
+  padding-right: 15px;
+}
+
+.Main-menu {
+  display: flex;
+  font-size: 16px;
+
+}
+
+.Main-menu-items {
+  display: inline-flex;
+}
+
+.Main-btns {
+  margin: 26px 10px 38px;
+}
+
+.None-span {
+  display: none;
+}
+
+.Main-input-box {
+  position: absolute;
+  right: 0px;
+  top: 26px;
+  height: 50px;
+}
+input:focus {
+  border: 1px solid orange;
+}
+input {
+  outline: none;
+}
+.Main-input-text {
+  position: relative;
+  top: -21px;
+  width: 223px;
+  height: 48px;
+  font-size: 14px;
+  padding: 0px 10px;
+  border: 1px solid #e0e0e0;
+  border-right: none;
+}
+.Main-input-submit {
+  position: relative;
+  top: -1px;
+  width: 52px;
+  height: 50px;
+  padding: 1px 6px;
+  border: 1px solid #e0e0e0;
+  background: url(./MainNavImg/searchImg.png) no-repeat center center;
+  background-size: 50% 50%;
+}
+
