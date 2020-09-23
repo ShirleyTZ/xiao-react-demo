@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "kan": "serce -s build -l 5000"
+    "kan": "serve -s build -l 5000"
   },
   "eslintConfig": {
     "extends": "react-app"
