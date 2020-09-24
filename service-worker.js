@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/xiao-react-demo/precache-manifest.8fb1582c1a1b5b0142889e39d8851016.js"
+  "/xiao-react-demo/precache-manifest.4cd904cb95cad93ca87a86885eb3578c.js"
 );
 
 self.addEventListener('message', (event) => {
