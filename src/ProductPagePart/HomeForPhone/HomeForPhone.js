@@ -43,7 +43,7 @@ class HomeForPhone extends Component {
       },{
         img:ticks[5],
         name:"小米10 青春版 5G",
-        describe:"50倍潜望式变焦/轻薄5G",
+        describe:"50倍潜望式变焦 / 轻薄5G手机",
         price:"1899元起",
         beforePrice:"2099元"
       },{
@@ -67,7 +67,7 @@ class HomeForPhone extends Component {
       }
     ]
     return(
-      <div className="Home-flash-sale">
+      <div className="Home-product-sale">
         <div className="xiaoMi-shangou">
           <h2>手机</h2>
         </div>

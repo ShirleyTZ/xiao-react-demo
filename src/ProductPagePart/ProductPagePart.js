@@ -3,8 +3,11 @@ import '../ProductPagePart/ProductPagePart.css'
 import HomeFlashsale from './HomeFlashsale/HomeFlashsale';
 import BannaBoxForHome from '../PublicComponents/BannaBoxForHome';
 import HomeForPhone from './HomeForPhone/HomeForPhone';
-import HomeApplication from './HomeAppliances//HomeAppliances';
 import HomeAppliances from './HomeAppliances//HomeAppliances';
+import Smart from './Smart/Smart';
+import Match from './Match/Match';
+import Accessories from './Accessories/Accessories';
+import PeripheralProducts from './PeripheralProducts/PeripheralProducts';
 
 class ProductPagePart extends Component {
   render() {
@@ -26,13 +29,13 @@ class ProductPagePart extends Component {
         <BannaBoxForHome bannerClass="Home-banner-box" bannerAClass="Home-banner-a" bannerImgClass="Home-banner-img" imgSrc={ticks[1]}/>
         <HomeAppliances />
         <BannaBoxForHome bannerClass="Home-banner-box" bannerAClass="Home-banner-a" bannerImgClass="Home-banner-img" imgSrc={ticks[2]}/>
-        
+        <Smart />
         <BannaBoxForHome bannerClass="Home-banner-box" bannerAClass="Home-banner-a" bannerImgClass="Home-banner-img" imgSrc={ticks[3]}/>
-        
+        <Match />
         <BannaBoxForHome bannerClass="Home-banner-box" bannerAClass="Home-banner-a" bannerImgClass="Home-banner-img" imgSrc={ticks[4]}/>
-        
+        <Accessories />
         <BannaBoxForHome bannerClass="Home-banner-box" bannerAClass="Home-banner-a" bannerImgClass="Home-banner-img" imgSrc={ticks[5]}/>
-        
+        <PeripheralProducts />
         <BannaBoxForHome bannerClass="Home-banner-box" bannerAClass="Home-banner-a" bannerImgClass="Home-banner-img" imgSrc={ticks[6]}/>
       </div>
     )

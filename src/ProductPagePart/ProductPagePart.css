@@ -163,7 +163,7 @@ h2 {
 /*bana box*/
 .Home-banner-box {
   width: 1226px;
-  margin: 0px auto 18px;
+  margin: 0px auto 16px;
 }
 .Home-banner-img {
   height: 120px;
@@ -171,6 +171,16 @@ h2 {
 }
 
 /*手机*/
+.Home-product-sale {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  width: 1226px;
+  padding-bottom: 36px;
+  margin:auto ;
+}
+
 .Home-phone-mainImg, .Home-phone-mainImg img{
   width: 234px;
   height: 614px;
@@ -180,7 +190,7 @@ h2 {
   margin-left: 234px;
   width: 992px;
   position: absolute;
-  bottom: 10px;
+  bottom: 22px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -253,4 +263,90 @@ h2 {
 .Home-appliance-mainImg {
   width: 234px;
   height: 300px;
+}
+
+.Appliance-more-box {
+  width: 234px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  bottom: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Home-appliance-more {
+  width: 234px;
+  height: 103px;
+  padding-top: 40px;
+  background-color: rgba(255, 254, 254, 1);
+  display: flex;
+}
+
+.Home-appliance-more-desc {
+  margin-left: 30px;
+}
+
+.Home-appliance-more-desc h3,.Home-appliance-more-desc p {
+  width: 94px;
+  margin: 0px;
+}
+
+.Home-appliance-more-desc>p {
+  font-size: 14px;
+  margin-top: 5px;
+  height: 21px;
+  color: #ff6700;
+}
+
+.Home-appliance-more-desc h3 {
+  font-size: 14px;
+  font-weight: 400;
+  white-space: wrap;
+}
+
+.Home-appliance-more-img {
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  position: relative;
+  top: -8px;
+}
+
+.Home-appliance-more-img img {
+  width: 80px;
+  height: 80px;
+}
+
+.for-more-desc {
+  width: 94px;
+  height: 45px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.for-more-desc p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.for-more-desc small {
+  font-size: 12px;
+  color:#757575;
+  position: relative;
+  top: -2px
+}
+
+.forMoreImg {
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.disappear {
+  display: none;
 }

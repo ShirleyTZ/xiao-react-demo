@@ -3,6 +3,8 @@ import './App.css';
 import HeadMenu from './HeadMenu/HeadMenu';
 import MainPart from './MainPart/MainPart';
 import ProductPagePart  from "./ProductPagePart/ProductPagePart";
+import AboutXiaoMi from './AboutXiaoMi/AboutXiaoMi';
+import Footer from './Footer/Footer';
 
 function App() {
   return (
@@ -12,7 +14,8 @@ function App() {
       <HeadMenu id="Head-menu" />
       <MainPart id="Main-part" />
       <ProductPagePart />
-      <div id="kan"></div>
+      <AboutXiaoMi />
+      <Footer id="footer"/>
     </div>
   );
 }

@@ -1,0 +1,67 @@
+.footer-wrapper {
+  width:1226px;
+  margin: auto;
+  position: relative;
+}
+
+.logoFooter {
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+
+.sites {
+  display: flex;
+  margin-left: 67px;
+  font-size: 12px;
+  height: 18px;
+}
+
+.sites-words {
+  color: #646363;
+}
+
+.sites-spans {
+  color: #b0b0b0;
+  width: 2.34px;
+  padding-right: 2px;
+}
+
+.sites-wrapper:last-child span {
+  display: none;
+}
+
+.licenses {
+  margin: 0px 0px 0px 67px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+
+.licenses a{
+  font-size: 12px;
+  color: #b0b0b0;
+}
+
+.licensesImg {
+  margin-left: 67px;
+  margin-top: 4px;
+}
+
+.licensesImg img {
+  height: 28px;
+  margin-right: 3.5px;
+}
+.licensesImg img:last-child {
+  height: 40px;
+  margin-left: 1.5px;
+}
+
+.wish {
+  text-align: center;
+  font-size: 22px;
+  height: 19px;
+  margin: 30px 0px 0px;
+  color: #b0b0b0;
+  background: url(./FooterImgs/slogan2020.png) no-repeat ;
+  background-position: center;
+}

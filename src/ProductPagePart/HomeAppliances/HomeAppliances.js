@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ProductCase from '../../PublicComponents/ProductCase';
-import ApplicationRight4 from './HomeApplianceImgs/ApplicationRight4.jpg';
+import ProductLumpForMore from '../../PublicComponents/ProductLumpForMore';
+import LiuLanGengDuo from './HomeApplianceImgs/LiuLanGengDuo.png'
 
 class HomeAppliances extends Component {
   render() {
@@ -25,7 +26,7 @@ class HomeAppliances extends Component {
     const productForHome =[
       {
         img:ticks[2],
-        name:"Redmi 红米电视机 70英寸",
+        name:"Redmi 红米电视 70英寸",
         describe:"70英寸震撼巨屏，4K画质，细腻如真",
         price:"3199元",
         beforePrice:"3799元"
@@ -61,20 +62,21 @@ class HomeAppliances extends Component {
         beforePrice:"899元"
       },{
         img:ticks[7],
-        name:"15.6\"四核i7 16G 独显 512G",
-        describe:"全面平衡的国民轻薄本",
+        name:"15.6\" 四核i7 16G 独显 512G",
+        describe:"全面均衡的国民轻薄本",
         price:"4899元",
         beforePrice:""
-      },{
-        img:ticks[8],
-        name:"Redmi K30 Pro 变焦版",
-        describe:"双模5G，晓龙865，弹出全面屏",
-        price:"3199元起",
-        beforePrice:"3799元"
       }
     ]
+    const lumpForMore ={
+        img:ticks[8],
+        name:"Air 13.3\" 2019款",
+        describe:"",
+        price:"5699元起",
+        beforePrice:"",
+    }
     return(
-      <div className="Home-flash-sale">
+      <div className="Home-product-sale">
         <div className="xiaoMi-shangou">
           <h2>家电</h2>
         </div>
@@ -83,6 +85,7 @@ class HomeAppliances extends Component {
           <img className="Home-appliance-mainImg" src={ticks[1]} />
         </div>
         <ProductCase headsize="h3" aboutProducts={productForHome} productCaseWrapper="product-case-wrapper" content="product-content" thumb="product-thumb" title="product-title" desc="product-desc" price="product-price" />
+        <ProductLumpForMore number8="Appliance-more-box" btn={lumpForMore} content="Home-appliance-more" visiable="Home-appliance-more" contentDesc="Home-appliance-more-desc" thumb="Home-appliance-more-img" forMoreDesc="for-more-desc" imgForMoreSrc={LiuLanGengDuo} forMoreImg="forMoreImg" />
       </div>
     )
   }
