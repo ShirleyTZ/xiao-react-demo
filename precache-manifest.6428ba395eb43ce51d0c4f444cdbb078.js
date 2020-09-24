@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25fce7fa22544c235d02d9da9fd435c6",
+    "revision": "1cf39147406ae746c523c4cf7c1843fe",
     "url": "/xiao-react-demo/index.html"
   },
   {
-    "revision": "7ade276c848247767fa2",
-    "url": "/xiao-react-demo/static/css/main.54ec8ee8.chunk.css"
+    "revision": "e08e742bd5f8737d01f1",
+    "url": "/xiao-react-demo/static/css/main.7b598d29.chunk.css"
   },
   {
     "revision": "5e99d9188046c1b3eb30",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiao-react-demo/static/js/2.01d5418c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ade276c848247767fa2",
-    "url": "/xiao-react-demo/static/js/main.183ca93a.chunk.js"
+    "revision": "e08e742bd5f8737d01f1",
+    "url": "/xiao-react-demo/static/js/main.f40cc146.chunk.js"
   },
   {
     "revision": "f2bf226d5517984d35e7",
@@ -54,6 +54,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8829b7792a076114115a64b09946e585",
     "url": "/xiao-react-demo/static/media/AccessoriesImgsRight8.8829b779.webp"
+  },
+  {
+    "revision": "3d6870bdc0a0812799f76ba9b680fb99",
+    "url": "/xiao-react-demo/static/media/Appliance1.3d6870bd.webp"
+  },
+  {
+    "revision": "301871b5b63916b0671463928f2d2d1e",
+    "url": "/xiao-react-demo/static/media/Appliance2.301871b5.png"
+  },
+  {
+    "revision": "3e48e22aaeb59e58270c178a2fd7de49",
+    "url": "/xiao-react-demo/static/media/Appliance4.3e48e22a.png"
+  },
+  {
+    "revision": "aa926391ed65d576bb40361b0b3980c0",
+    "url": "/xiao-react-demo/static/media/Appliance5.aa926391.webp"
+  },
+  {
+    "revision": "b79f6d86d162ca9ba9be8af50591aea2",
+    "url": "/xiao-react-demo/static/media/Appliance6.b79f6d86.webp"
   },
   {
     "revision": "332088f796e0ec198fd5a0e6f15835e4",
@@ -98,6 +118,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b01ebdd0afd9f444e5c2cdc9d299e0b1",
     "url": "/xiao-react-demo/static/media/Header.b01ebdd0.jpg"
+  },
+  {
+    "revision": "b082b604c9013a80b461e9f0330325ee",
+    "url": "/xiao-react-demo/static/media/IH4.b082b604.webp"
+  },
+  {
+    "revision": "87084cbee29606a3bf91c8070abab0dc",
+    "url": "/xiao-react-demo/static/media/IH6.87084cbe.webp"
+  },
+  {
+    "revision": "8fbc86771baac581e8886c1e1aa2e26c",
+    "url": "/xiao-react-demo/static/media/Laptop1.8fbc8677.webp"
+  },
+  {
+    "revision": "d0b4fcfa3d41c63bdd866c079647060b",
+    "url": "/xiao-react-demo/static/media/Laptop2.d0b4fcfa.webp"
+  },
+  {
+    "revision": "e4a72a9b678ff025db5d86667889e8b0",
+    "url": "/xiao-react-demo/static/media/Laptop3.e4a72a9b.webp"
+  },
+  {
+    "revision": "5f769364df3c8d21dfad2ac312f20b46",
+    "url": "/xiao-react-demo/static/media/Laptop4.5f769364.png"
+  },
+  {
+    "revision": "b0ef51c9084bf6c0ffa6cc1076aa2c44",
+    "url": "/xiao-react-demo/static/media/Laptop5.b0ef51c9.webp"
+  },
+  {
+    "revision": "db9b34e91653fa2f1933cb881a99490c",
+    "url": "/xiao-react-demo/static/media/Laptop6.db9b34e9.webp"
   },
   {
     "revision": "faf41f8f2944f90773b9a0d5c2478183",
@@ -200,6 +252,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiao-react-demo/static/media/RedMiTV.e077b7d7.webp"
   },
   {
+    "revision": "b09699c65fd0e3a1341cd50a93e411b2",
+    "url": "/xiao-react-demo/static/media/Redmi1.b09699c6.webp"
+  },
+  {
+    "revision": "02939fac86b32ed39168edce57c22c84",
+    "url": "/xiao-react-demo/static/media/Redmi2.02939fac.webp"
+  },
+  {
+    "revision": "ba4de01c62e713647fa3500ed0d6b14c",
+    "url": "/xiao-react-demo/static/media/Redmi3.ba4de01c.webp"
+  },
+  {
+    "revision": "27525b7247836641b1351f6ba3e06345",
+    "url": "/xiao-react-demo/static/media/Redmi4.27525b72.webp"
+  },
+  {
+    "revision": "4bb828aa5bcc8a9e29968e8b6a67f2db",
+    "url": "/xiao-react-demo/static/media/Redmi5.4bb828aa.webp"
+  },
+  {
+    "revision": "6b6037bfee2703e8813472429a40be94",
+    "url": "/xiao-react-demo/static/media/Redmi6.6b6037bf.webp"
+  },
+  {
     "revision": "83e5edf48f5249f9bb6e6f5105d33454",
     "url": "/xiao-react-demo/static/media/SmartImgLeft1.83e5edf4.webp"
   },
@@ -234,6 +310,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "603aeec195b677a13f687ba90c843849",
     "url": "/xiao-react-demo/static/media/SmartImgRight7.603aeec1.webp"
+  },
+  {
+    "revision": "8418b6a6dfa723b927260ccdb8d3b972",
+    "url": "/xiao-react-demo/static/media/TV1.8418b6a6.webp"
+  },
+  {
+    "revision": "509d890f9809f6d556ad01f6d23460f5",
+    "url": "/xiao-react-demo/static/media/TV2.509d890f.webp"
+  },
+  {
+    "revision": "00b1a1e9cc3c159407afea310a0a1f89",
+    "url": "/xiao-react-demo/static/media/TV3.00b1a1e9.webp"
+  },
+  {
+    "revision": "8b8272d7f7296aadffb230ea0508bc0b",
+    "url": "/xiao-react-demo/static/media/TV4.8b8272d7.webp"
+  },
+  {
+    "revision": "c10827bf14ab626524eae543b431763e",
+    "url": "/xiao-react-demo/static/media/TV5.c10827bf.webp"
+  },
+  {
+    "revision": "109a2be7b89426e5993a06e69842cddd",
+    "url": "/xiao-react-demo/static/media/TV6.109a2be7.webp"
   },
   {
     "revision": "95f8458bbe6bf9fbe982f496b8563377",
@@ -292,8 +392,52 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiao-react-demo/static/media/liangPianLong.b81cf159.jpg"
   },
   {
+    "revision": "385f0779d801cdc636791acebff11699",
+    "url": "/xiao-react-demo/static/media/phone1.385f0779.webp"
+  },
+  {
+    "revision": "60fdb42b20697bb0a5494f600a159bac",
+    "url": "/xiao-react-demo/static/media/phone2.60fdb42b.webp"
+  },
+  {
+    "revision": "02d3773a6faf3b2200acf39533ada6fb",
+    "url": "/xiao-react-demo/static/media/phone3.02d3773a.webp"
+  },
+  {
+    "revision": "df77bd49774f662ac4a476ca9c198de5",
+    "url": "/xiao-react-demo/static/media/phone4.df77bd49.webp"
+  },
+  {
+    "revision": "2430285de208c1a0ade27248938b2870",
+    "url": "/xiao-react-demo/static/media/phone5.2430285d.webp"
+  },
+  {
     "revision": "0706a936207f285ec7bd8fa4e23b19d5",
     "url": "/xiao-react-demo/static/media/phoneleft.0706a936.webp"
+  },
+  {
+    "revision": "2e914fe694aad91bda06798378111f5e",
+    "url": "/xiao-react-demo/static/media/router1.2e914fe6.webp"
+  },
+  {
+    "revision": "180aec7340347c8ee7d571021c8b2884",
+    "url": "/xiao-react-demo/static/media/router2.180aec73.webp"
+  },
+  {
+    "revision": "af1aee1d648fa789eea1f27983f52fcf",
+    "url": "/xiao-react-demo/static/media/router3.af1aee1d.webp"
+  },
+  {
+    "revision": "d7f055ead39334a9b79c9c8a2a2e0366",
+    "url": "/xiao-react-demo/static/media/router4.d7f055ea.webp"
+  },
+  {
+    "revision": "d3dad207e841fae2219053ddcd4f6386",
+    "url": "/xiao-react-demo/static/media/router5.d3dad207.webp"
+  },
+  {
+    "revision": "4795bc51db6b1e21d2e3e947ae567f85",
+    "url": "/xiao-react-demo/static/media/router6.4795bc51.webp"
   },
   {
     "revision": "8a035e68f927d075e9bf5b660a2047cb",
