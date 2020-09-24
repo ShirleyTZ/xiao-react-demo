@@ -1,4 +1,11 @@
 #Main-nav {
+  width:100%;
+  display: flex;
+  position: relative;
+}
+.Main-menu-box {
+  width: 1226px;
+  margin: auto;
   display: flex;
   position: relative;
 }
@@ -55,6 +62,10 @@
   margin: 26px 10px 38px;
 }
 
+.Main-btns:hover {
+  color: #ff6700;
+}
+
 .None-span {
   display: none;
 }
@@ -92,3 +103,57 @@ input {
   background-size: 50% 50%;
 }
 
+/*下拉框样式*/
+#Main-menu-slidedownBox {
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  background-color: white;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  box-shadow: 0px 2px 2px #bdbdbd;
+  height: 0;
+  visibility: hidden;
+  transition: all linear .1s;
+}
+
+.Main-menu-slidedown {
+  width: 1226px;
+  min-width: 1226px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+
+.Main-menu-slidedown-content {
+  margin-bottom: 30px;
+  transition: all linear 2s;
+}
+.Main-menu-slidedown-thumb {
+  height: 100px;
+  width: 204px;
+  margin-top: 30px;
+  border-right: 1px solid #cccccc;
+}
+.Main-menu-slidedown-content:last-child .Main-menu-slidedown-thumb {
+  border: none;
+}
+
+.Main-menu-slidedown-thumb img {
+  width: 150px;
+  margin-top: 0px;
+}
+
+.Main-menu-slidedown-title {
+  font-size: 14px;
+  margin: 20px 0px 10px;
+}
+
+.Main-menu-slidedown-desc {
+  display: none;
+}
+
+.Main-menu-slidedown-price {
+  font-size: 12px;
+  margin: 0px;
+}

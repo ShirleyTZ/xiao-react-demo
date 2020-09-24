@@ -23,6 +23,10 @@ a {
   opacity: 1;
 }
 
+.List-left-item:hover{
+  color: aliceblue;
+}
+
 .List-left-item-span{
   color: #424242;
   width: 7.9px;
@@ -47,6 +51,10 @@ a {
   font-size: 9px;
   font-family: sans-serif;
   margin: auto 0px;
+}
+
+.List-right-item:hover {
+  color: aliceblue;
 }
 
 .List-left-item:last-child span{ 

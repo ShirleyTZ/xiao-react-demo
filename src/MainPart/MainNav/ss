@@ -1,0 +1,39 @@
+ 
+
+
+      
+    const laptop ={
+      vlogo1:"",
+      vlogo2:"",
+      vlogo3:"",
+      vlogo4:"",
+      vlogo5:""
+    }
+    const laptopItems = Object.keys(laptop).map(item => require("./FooterImgs/"+ item + ".png"));
+    const appliance ={
+      vlogo1:"",
+      vlogo2:"",
+      vlogo3:"",
+      vlogo4:"",
+      vlogo5:""
+    }
+    const applianceItems = Object.keys(appliance).map(item => require("./FooterImgs/"+ item + ".png"));
+    const router ={
+      vlogo1:"",
+      vlogo2:"",
+      vlogo3:"",
+      vlogo4:"",
+      vlogo5:""
+    }
+    const routerItems = Object.keys(router).map(item => require("./FooterImgs/"+ item + ".png"));
+    const IH ={
+      vlogo1:"",
+      vlogo2:"",
+      vlogo3:"",
+      vlogo4:"",
+      vlogo5:""
+    }
+    const IHItems = Object.keys(IH).map(item => require("./FooterImgs/"+ item + ".png"));
+    
+    
+    

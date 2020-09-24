@@ -186,6 +186,13 @@ h2 {
   height: 614px;
 }
 
+.Home-phone-mainImg:hover  {
+  position: relative;
+  top: -2px;
+  box-shadow: -5px 5px 30px #b0b0b0;
+  transition: all .5s;
+}
+
 .product-case-wrapper {
   margin-left: 234px;
   width: 992px;
@@ -203,6 +210,13 @@ h2 {
   text-align: center;
   background-color: rgba(255, 254, 254, 1);
   position: relative;
+}
+
+.product-content:hover  {
+  position: relative;
+  top: -2px;
+  box-shadow: -5px 5px 20px #b0b0b0;
+  transition: all .5s;
 }
 
 .product-thumb {
@@ -263,6 +277,13 @@ h2 {
 .Home-appliance-mainImg {
   width: 234px;
   height: 300px;
+}
+
+.Home-appliance-mainImg:hover,.Home-appliance-more:hover {
+  position: relative;
+  top: -2px;
+  box-shadow: -5px 5px 20px #b0b0b0;
+  transition: all .5s;
 }
 
 .Appliance-more-box {

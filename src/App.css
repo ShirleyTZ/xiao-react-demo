@@ -20,8 +20,7 @@ ul,li {
 }
 
 #Main-part {
-  width: 1226px;
-  margin: auto;
+  width: 100%;
 }
 
 #footer {
