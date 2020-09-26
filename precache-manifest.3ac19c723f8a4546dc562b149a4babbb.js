@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1cf39147406ae746c523c4cf7c1843fe",
+    "revision": "65ae27b0351d66e4e8a462b1f012f3f5",
     "url": "/xiao-react-demo/index.html"
   },
   {
-    "revision": "e08e742bd5f8737d01f1",
-    "url": "/xiao-react-demo/static/css/main.7b598d29.chunk.css"
+    "revision": "7c76ac4a56f0c997981c",
+    "url": "/xiao-react-demo/static/css/main.048b82fd.chunk.css"
   },
   {
     "revision": "5e99d9188046c1b3eb30",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiao-react-demo/static/js/2.01d5418c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e08e742bd5f8737d01f1",
-    "url": "/xiao-react-demo/static/js/main.f40cc146.chunk.js"
+    "revision": "7c76ac4a56f0c997981c",
+    "url": "/xiao-react-demo/static/js/main.e21c87c1.chunk.js"
   },
   {
     "revision": "f2bf226d5517984d35e7",
@@ -390,6 +390,342 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b81cf159d3a03faa2784b3327ed73800",
     "url": "/xiao-react-demo/static/media/liangPianLong.b81cf159.jpg"
+  },
+  {
+    "revision": "00398714c9b45712204da5260f5ccb18",
+    "url": "/xiao-react-demo/static/media/p1.00398714.webp"
+  },
+  {
+    "revision": "0f983f80a137e16dff9f022827cf93ed",
+    "url": "/xiao-react-demo/static/media/p1.0f983f80.webp"
+  },
+  {
+    "revision": "30b60eff30d23a3a3feef714d9417df3",
+    "url": "/xiao-react-demo/static/media/p1.30b60eff.webp"
+  },
+  {
+    "revision": "bee5ffb5f548c14661733953ebde2f24",
+    "url": "/xiao-react-demo/static/media/p1.bee5ffb5.webp"
+  },
+  {
+    "revision": "c84921173b60129d4489ea12ad8c7e67",
+    "url": "/xiao-react-demo/static/media/p1.c8492117.webp"
+  },
+  {
+    "revision": "ca2173d84a0e7ebba5e538241f59b0f7",
+    "url": "/xiao-react-demo/static/media/p1.ca2173d8.webp"
+  },
+  {
+    "revision": "e9e55fea8189e399bd55f7e66a1a71a4",
+    "url": "/xiao-react-demo/static/media/p1.e9e55fea.webp"
+  },
+  {
+    "revision": "faddb7b92fc97ee278b61fcf31111ecf",
+    "url": "/xiao-react-demo/static/media/p1.faddb7b9.webp"
+  },
+  {
+    "revision": "505f5d881955a943d5c9c8b8b9fde6b5",
+    "url": "/xiao-react-demo/static/media/p10.505f5d88.webp"
+  },
+  {
+    "revision": "61319545f7484677a43ad94a35a04347",
+    "url": "/xiao-react-demo/static/media/p10.61319545.webp"
+  },
+  {
+    "revision": "aad4bf8f25aeebe1b7f5c52777344d3d",
+    "url": "/xiao-react-demo/static/media/p10.aad4bf8f.webp"
+  },
+  {
+    "revision": "c12e9d38e15dcc71709982f7aa6f127f",
+    "url": "/xiao-react-demo/static/media/p10.c12e9d38.webp"
+  },
+  {
+    "revision": "02fdedc79dfdccfe050ca97fd976eb06",
+    "url": "/xiao-react-demo/static/media/p11.02fdedc7.webp"
+  },
+  {
+    "revision": "ab54a39b28f17fde9ff46a180565c76b",
+    "url": "/xiao-react-demo/static/media/p11.ab54a39b.webp"
+  },
+  {
+    "revision": "cff6365fb94ccd214a04396d3aa00e25",
+    "url": "/xiao-react-demo/static/media/p11.cff6365f.webp"
+  },
+  {
+    "revision": "153b709cdbde1c84162658d4740c6b12",
+    "url": "/xiao-react-demo/static/media/p12.153b709c.webp"
+  },
+  {
+    "revision": "a7e57cb14195f5502fbb5c942afd610c",
+    "url": "/xiao-react-demo/static/media/p12.a7e57cb1.webp"
+  },
+  {
+    "revision": "fd857d79bd3c2c232d31cb11008797b0",
+    "url": "/xiao-react-demo/static/media/p12.fd857d79.webp"
+  },
+  {
+    "revision": "133443fb20b241beef77d792e53930bb",
+    "url": "/xiao-react-demo/static/media/p13.133443fb.webp"
+  },
+  {
+    "revision": "5864bcd3049f96c08b43273811673440",
+    "url": "/xiao-react-demo/static/media/p13.5864bcd3.webp"
+  },
+  {
+    "revision": "975fe6206c828d1b1bf5974fa2e76f6a",
+    "url": "/xiao-react-demo/static/media/p13.975fe620.webp"
+  },
+  {
+    "revision": "dc6476f5519f01f0e91dfc69c447d64d",
+    "url": "/xiao-react-demo/static/media/p13.dc6476f5.webp"
+  },
+  {
+    "revision": "1693a31a44cdd9690ae469326242bc4c",
+    "url": "/xiao-react-demo/static/media/p14.1693a31a.webp"
+  },
+  {
+    "revision": "546a9f06846bf10e1d448a7b8443b341",
+    "url": "/xiao-react-demo/static/media/p14.546a9f06.webp"
+  },
+  {
+    "revision": "66486e69b424e70215d648c44180c1da",
+    "url": "/xiao-react-demo/static/media/p14.66486e69.webp"
+  },
+  {
+    "revision": "17498ea7d658f735795dbce96f7462eb",
+    "url": "/xiao-react-demo/static/media/p15.17498ea7.webp"
+  },
+  {
+    "revision": "4ea429ffb76af60a1e7fbd794417f6d0",
+    "url": "/xiao-react-demo/static/media/p15.4ea429ff.webp"
+  },
+  {
+    "revision": "53afbbd565020a347c8a410ae2e8481f",
+    "url": "/xiao-react-demo/static/media/p15.53afbbd5.webp"
+  },
+  {
+    "revision": "66486e69b424e70215d648c44180c1da",
+    "url": "/xiao-react-demo/static/media/p15.66486e69.webp"
+  },
+  {
+    "revision": "70b6c86c7ae5b8b5470acd2fb1730136",
+    "url": "/xiao-react-demo/static/media/p15.70b6c86c.webp"
+  },
+  {
+    "revision": "09bf7363ca477dabc9964a4f8668d248",
+    "url": "/xiao-react-demo/static/media/p16.09bf7363.webp"
+  },
+  {
+    "revision": "52e167db8889479577cd1c82a2609b83",
+    "url": "/xiao-react-demo/static/media/p16.52e167db.webp"
+  },
+  {
+    "revision": "951ab5a7e5c810c7da33fd83324714c7",
+    "url": "/xiao-react-demo/static/media/p17.951ab5a7.png"
+  },
+  {
+    "revision": "dd937625026956b2bdc4796f41de3a86",
+    "url": "/xiao-react-demo/static/media/p17.dd937625.webp"
+  },
+  {
+    "revision": "e51b6fa75c1f4cba02df8d5146545951",
+    "url": "/xiao-react-demo/static/media/p17.e51b6fa7.webp"
+  },
+  {
+    "revision": "293989d077f94ce7bffe6c50c653da8d",
+    "url": "/xiao-react-demo/static/media/p18.293989d0.webp"
+  },
+  {
+    "revision": "62741a9687350727a7d3505ed248b387",
+    "url": "/xiao-react-demo/static/media/p18.62741a96.webp"
+  },
+  {
+    "revision": "40ada66003afed5905e20ea4b0533903",
+    "url": "/xiao-react-demo/static/media/p19.40ada660.webp"
+  },
+  {
+    "revision": "f8e6adda6e761f356843b43e1a8dc95a",
+    "url": "/xiao-react-demo/static/media/p19.f8e6adda.webp"
+  },
+  {
+    "revision": "22ae2c6df283263eb154565bca2acd4f",
+    "url": "/xiao-react-demo/static/media/p2.22ae2c6d.webp"
+  },
+  {
+    "revision": "4690176f800ca0f94224610f35333113",
+    "url": "/xiao-react-demo/static/media/p2.4690176f.webp"
+  },
+  {
+    "revision": "5c813670dccfabd4e592ba7bf0b217b7",
+    "url": "/xiao-react-demo/static/media/p2.5c813670.webp"
+  },
+  {
+    "revision": "5c91d4c5fea01a60c81d71a56604eab2",
+    "url": "/xiao-react-demo/static/media/p2.5c91d4c5.webp"
+  },
+  {
+    "revision": "a9032ea051f69c766e6b3247c8669a79",
+    "url": "/xiao-react-demo/static/media/p2.a9032ea0.webp"
+  },
+  {
+    "revision": "cd47db078440c60875c852536c3a442b",
+    "url": "/xiao-react-demo/static/media/p2.cd47db07.webp"
+  },
+  {
+    "revision": "ff2ab6da40131444d6dbd6ebbdc11cf2",
+    "url": "/xiao-react-demo/static/media/p2.ff2ab6da.webp"
+  },
+  {
+    "revision": "4d5a6311417f7341f1f823c2d14b376e",
+    "url": "/xiao-react-demo/static/media/p20.4d5a6311.webp"
+  },
+  {
+    "revision": "b684c6bd5e121a163b45c42c2e0a529b",
+    "url": "/xiao-react-demo/static/media/p20.b684c6bd.webp"
+  },
+  {
+    "revision": "63fdb74e4e09f8aa6ab705f71a82a65b",
+    "url": "/xiao-react-demo/static/media/p21.63fdb74e.webp"
+  },
+  {
+    "revision": "adcccdcb58f999324b6f1674155dcad9",
+    "url": "/xiao-react-demo/static/media/p21.adcccdcb.webp"
+  },
+  {
+    "revision": "efca2598d6e463f7efcf97c4cf29d895",
+    "url": "/xiao-react-demo/static/media/p22.efca2598.webp"
+  },
+  {
+    "revision": "8be045b7a9dd78a75b45bf6fdc0c418b",
+    "url": "/xiao-react-demo/static/media/p23.8be045b7.webp"
+  },
+  {
+    "revision": "d8902a4bb4375510bef219ee3e4e5d4d",
+    "url": "/xiao-react-demo/static/media/p24.d8902a4b.webp"
+  },
+  {
+    "revision": "4b87bce31068cf2502bf7c02277a5db8",
+    "url": "/xiao-react-demo/static/media/p3.4b87bce3.webp"
+  },
+  {
+    "revision": "608b15b77bd119ac3c4e7eb3f7df2340",
+    "url": "/xiao-react-demo/static/media/p3.608b15b7.webp"
+  },
+  {
+    "revision": "a23fdb578e25a6f0d2003ddba5126582",
+    "url": "/xiao-react-demo/static/media/p3.a23fdb57.webp"
+  },
+  {
+    "revision": "adff0fdb94679089c9b9e1e8946616a3",
+    "url": "/xiao-react-demo/static/media/p3.adff0fdb.webp"
+  },
+  {
+    "revision": "b28da73d1239948556bdb84f453336da",
+    "url": "/xiao-react-demo/static/media/p3.b28da73d.webp"
+  },
+  {
+    "revision": "bbc1400767f23a3d4692f5fefa2b707c",
+    "url": "/xiao-react-demo/static/media/p3.bbc14007.webp"
+  },
+  {
+    "revision": "c2ccb5807452fed48cd6781842e5253e",
+    "url": "/xiao-react-demo/static/media/p3.c2ccb580.webp"
+  },
+  {
+    "revision": "12f1ad617f92b6386940c6c14b697aa1",
+    "url": "/xiao-react-demo/static/media/p4.12f1ad61.webp"
+  },
+  {
+    "revision": "14261fb9d0fbf6921bdbd5f2ccfa28a3",
+    "url": "/xiao-react-demo/static/media/p4.14261fb9.webp"
+  },
+  {
+    "revision": "20424e94b33bdb086c74bbe362cefb60",
+    "url": "/xiao-react-demo/static/media/p4.20424e94.webp"
+  },
+  {
+    "revision": "3c2193c4e25de03acae419f30f8641f3",
+    "url": "/xiao-react-demo/static/media/p4.3c2193c4.webp"
+  },
+  {
+    "revision": "4b87bce31068cf2502bf7c02277a5db8",
+    "url": "/xiao-react-demo/static/media/p4.4b87bce3.webp"
+  },
+  {
+    "revision": "7b702fa569641f648604aad2c4c3515d",
+    "url": "/xiao-react-demo/static/media/p4.7b702fa5.webp"
+  },
+  {
+    "revision": "882788bae474a44655b83b83d105a639",
+    "url": "/xiao-react-demo/static/media/p4.882788ba.webp"
+  },
+  {
+    "revision": "5e1ca01134248ada171edadaaf251de9",
+    "url": "/xiao-react-demo/static/media/p5.5e1ca011.webp"
+  },
+  {
+    "revision": "619365d66a3187bb5e7c82268c818b92",
+    "url": "/xiao-react-demo/static/media/p5.619365d6.webp"
+  },
+  {
+    "revision": "6d6e29937844ddd5893525acac61f9c9",
+    "url": "/xiao-react-demo/static/media/p5.6d6e2993.webp"
+  },
+  {
+    "revision": "767bcc54b601523ee919f5f9175380a4",
+    "url": "/xiao-react-demo/static/media/p5.767bcc54.webp"
+  },
+  {
+    "revision": "a454610bed2af238f7c8ff9d5513a1b0",
+    "url": "/xiao-react-demo/static/media/p5.a454610b.webp"
+  },
+  {
+    "revision": "5c6640477190b3102beb700f75f41446",
+    "url": "/xiao-react-demo/static/media/p6.5c664047.webp"
+  },
+  {
+    "revision": "717f0edb9704055d2cbbd9b2b51d6e2a",
+    "url": "/xiao-react-demo/static/media/p6.717f0edb.webp"
+  },
+  {
+    "revision": "17af428b718e198c6915d5975f23598f",
+    "url": "/xiao-react-demo/static/media/p7.17af428b.webp"
+  },
+  {
+    "revision": "958fb61d1cff9aca3c8b1f45d5c45708",
+    "url": "/xiao-react-demo/static/media/p7.958fb61d.webp"
+  },
+  {
+    "revision": "a25956e1038d3679669cefc52422c831",
+    "url": "/xiao-react-demo/static/media/p7.a25956e1.webp"
+  },
+  {
+    "revision": "f926439cafd042ff95505df616f6961b",
+    "url": "/xiao-react-demo/static/media/p7.f926439c.webp"
+  },
+  {
+    "revision": "dbc6b1b8f831bef4d8aa4ca8ea614afa",
+    "url": "/xiao-react-demo/static/media/p8.dbc6b1b8.webp"
+  },
+  {
+    "revision": "fa3731e3ee93f43acb16cf025c0ac7f2",
+    "url": "/xiao-react-demo/static/media/p8.fa3731e3.webp"
+  },
+  {
+    "revision": "fe9b49e03fb1be5d1e082de9e03c70fb",
+    "url": "/xiao-react-demo/static/media/p8.fe9b49e0.webp"
+  },
+  {
+    "revision": "0db505b7e7dcfef697a91b943b8d112d",
+    "url": "/xiao-react-demo/static/media/p9.0db505b7.webp"
+  },
+  {
+    "revision": "282b6c1d8ad665588a16496a2769ca72",
+    "url": "/xiao-react-demo/static/media/p9.282b6c1d.webp"
+  },
+  {
+    "revision": "ad753f80451c8f81bd24440c3a7a0698",
+    "url": "/xiao-react-demo/static/media/p9.ad753f80.webp"
   },
   {
     "revision": "385f0779d801cdc636791acebff11699",
