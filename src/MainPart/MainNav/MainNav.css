@@ -115,6 +115,7 @@ input {
   height: 0;
   visibility: hidden;
   transition: all linear .1s;
+  z-index: 5;
 }
 
 .Main-menu-slidedown {

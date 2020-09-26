@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 class ListForMenu extends Component {
-  constructor(props) {
-    super(props)
+  constructor() {
+    super()
     this.state = {
       num: -1
     }

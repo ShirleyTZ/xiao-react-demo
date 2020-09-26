@@ -1,39 +1,143 @@
- 
+  
+  handleMouseOver(e){
+    const show = e.currentTarget.dataset.num;
+    const slideshowbox = document.getElementById("Home-hero-page-left-contentBox");
+    if( show >= 0 && show < 10 ){
+      slideshowbox.style.visibility = "visible";
+      this.setState({
+        showWitch: show,
+        on: show 
+      })
+      console.log(slideshowbox.firstChild)
+    }else{
+      this.setState({
+        showWitch: 10
+      })
+      slideshowbox.style.visibility = "hidden";
+    }  
+  }
 
-
+  handleMouseLeave(e) {
+    const slideshowbox = document.getElementById("Home-hero-page-left-contentBox");
+    slideshowbox.style.visibility = "hidden";
+    const add = () =>{setTimeout(() => {
+      this.setState({
+        showWitch: 10,
+      })
+    })
+    if(!this.state.in) {
+      console.log(this.state.in)
+        this.setState({
+          on: 10
+        })
       
-    const laptop ={
-      vlogo1:"",
-      vlogo2:"",
-      vlogo3:"",
-      vlogo4:"",
-      vlogo5:""
     }
-    const laptopItems = Object.keys(laptop).map(item => require("./FooterImgs/"+ item + ".png"));
-    const appliance ={
-      vlogo1:"",
-      vlogo2:"",
-      vlogo3:"",
-      vlogo4:"",
-      vlogo5:""
+  }
+
+  handleSlideDownMouseLeave() {
+    const slideshowbox = document.getElementById("Home-hero-page-left-contentBox");
+    slideshowbox.style.visibility = "hidden";
+    this.setState({
+      showWitch: 10,
+      on: 10,
+      in: false
+    })
+  }
+
+  handleSlideDownMouseEnter() {
+    this.setState({
+      in:true
+    }) 
+    const show = this.state.on;
+    console.log(this.state.showWitch + this.state.in);
+    const slideshowbox = document.getElementById("Home-hero-page-left-contentBox");
+    slideshowbox.style.visibility = "visible";
+    if(show >= 0 && show < 10){
+        this.setState({
+          showWitch: this.state.on
+        })
+    }else {
+      const slidedownDiv = document.getElementById("Home-hero-page-left-contentBox");
+      slidedownDiv.style.visibility = "hidden";
     }
-    const applianceItems = Object.keys(appliance).map(item => require("./FooterImgs/"+ item + ".png"));
-    const router ={
-      vlogo1:"",
-      vlogo2:"",
-      vlogo3:"",
-      vlogo4:"",
-      vlogo5:""
-    }
-    const routerItems = Object.keys(router).map(item => require("./FooterImgs/"+ item + ".png"));
-    const IH ={
-      vlogo1:"",
-      vlogo2:"",
-      vlogo3:"",
-      vlogo4:"",
-      vlogo5:""
-    }
-    const IHItems = Object.keys(IH).map(item => require("./FooterImgs/"+ item + ".png"));
-    
-    
-    
+  }
+  
+
+
+  
+  
+  const homePhone = [
+      [{
+        img: require("./hhh/p1" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p2" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p3" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p4" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p5" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p6" + ".webp"),
+        describe: ""
+      }],[{
+        img: require("./hhh/p7" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p8" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p9" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p10" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p11" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p12" + ".webp"),
+        describe: ""
+      }],[{
+        img: require("./hhh/p13" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p14" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p15" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p16" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p17" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p18" + ".webp"),
+        describe: ""
+      }],[{
+        img: require("./hhh/p19" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p20" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p21" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p22" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p23" + ".webp"),
+        describe: ""
+      },{
+        img: require("./hhh/p24" + ".webp"),
+        describe: ""
+      }]
+    ]

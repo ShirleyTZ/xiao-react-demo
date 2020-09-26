@@ -9,16 +9,15 @@ class MainNav extends Component {
     super();
     this.state={
       showWitch: 7,
-      on: 7
+      on: 7,
+      in:false
     }
   }
 
   handleMouseOver(e){
     const show = e.currentTarget.dataset.num;
-
     const slidedownDiv = document.getElementById("Main-menu-slidedownBox");
     if( show >= 0 && show < 7 ){
-
       slidedownDiv.style.height = "229px";
       slidedownDiv.style.visibility = "visible";
       this.setState({
@@ -31,6 +30,7 @@ class MainNav extends Component {
       this.setState({
         showWitch: 7
       })
+    
     }  
   }
   handleMouseLeave(e) {
@@ -38,17 +38,44 @@ class MainNav extends Component {
     slidedownDiv.style.height = "0px";
     slidedownDiv.style.visibility = "hidden";
     this.setState({
-      showWitch: 7
+      showWitch: 7,
+    })
+    if(!this.state.in) {
+      this.setState({
+        on: 7
+      })
+    }
+  }
+
+  handleSlideDownMouseLeave() {
+    const slidedownDiv = document.getElementById("Main-menu-slidedownBox");
+    slidedownDiv.style.height = "0px";
+    slidedownDiv.style.visibility = "hidden";
+    this.setState({
+      showWitch: 7,
+      on:7,
+      in: false
     })
   }
 
-  handleSlideDownMouseOver() {
+  handleSlideDownMouseEnter() {
+    this.setState({
+      in:true
+    }) 
+    const show = this.state.on;
     const slidedownDiv = document.getElementById("Main-menu-slidedownBox");
+    const empty = slidedownDiv.getElementsByClassName("Main-menu-slidedown-content");
     slidedownDiv.style.height = "229px";
     slidedownDiv.style.visibility = "visible";
-    this.setState({
-      showWitch: this.state.on
-    })
+    if(show >= 0 && show < 7){
+      this.setState({
+        showWitch: this.state.on
+      })
+    }else {
+      const slidedownDiv = document.getElementById("Main-menu-slidedownBox");
+      slidedownDiv.style.height = "0px";
+      slidedownDiv.style.visibility = "hidden";
+    } 
   }
 
 
@@ -290,8 +317,8 @@ class MainNav extends Component {
             </div>
             <InputForSearch inputBox="Main-input-box" textName="Main-input-text" submitName="Main-input-submit"  placeHolder="耳机" />
           </div>
-          <div id="Main-menu-slidedownBox" onMouseOver={this.handleSlideDownMouseOver.bind(this)} onMouseLeave={this.handleMouseLeave.bind(this)} >
-             <ProductCase headsize="h3" aboutProducts={slidedownBox[this.state.showWitch]} productCaseWrapper="Main-menu-slidedown" content="Main-menu-slidedown-content" thumb="Main-menu-slidedown-thumb" title="Main-menu-slidedown-title" desc="Main-menu-slidedown-desc" price="Main-menu-slidedown-price"  />
+          <div id="Main-menu-slidedownBox" onMouseEnter={this.handleSlideDownMouseEnter.bind(this)} onMouseLeave={this.handleSlideDownMouseLeave.bind(this)} >
+            <ProductCase headsize="h3" aboutProducts={slidedownBox[this.state.showWitch]} productCaseWrapper="Main-menu-slidedown" content="Main-menu-slidedown-content" thumb="Main-menu-slidedown-thumb" title="Main-menu-slidedown-title" desc="Main-menu-slidedown-desc" price="Main-menu-slidedown-price"  />
           </div>   
       </div>
     )
