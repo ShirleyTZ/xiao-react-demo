@@ -726,7 +726,7 @@ class HomeHeroPage extends Component {
           <ListForImgWithWords imgWrapper="Home-hero-img-wrapper" items={homeHeroImg} imgItem="Home-hero-pictures" imgDescribe="Home-hero-pictures-describe"/>
           <MenuForHomeHero id="Home-hero-page-left" items={menuLeft} menuWrapper="Home-hero-page-menuWrapper" btn="Home-hero-page-btn" handleMouseOver={this.handleMouseOver.bind(this)} handleMouseLeave={this.handleMouseLeave.bind(this)} />
         </div>
-        <div className="Home-hero-page-left-contentBox" onMouseEnter={this.handleSlideDownMouseEnter.bind(this)} onMouseLeave={this.handleSlideDownMouseLeave.bind(this)}>
+        <div id="Home-hero-page-left-contentBox" onMouseEnter={this.handleSlideDownMouseEnter.bind(this)} onMouseLeave={this.handleSlideDownMouseLeave.bind(this)}>
           <GridForHomeMenu items={leftmenuContent[this.state.showWitch]} id="Home-hero-page-left-content" lumps="Home-hero-leftmenu-lumps" imgWrapper="Home-hero-leftmenu-wrapper" imgItem="Home-hero-leftmenu-content-pictures" imgDescribe="Home-hero-leftmenu-content-pictures-describe" />
         </div>
         <HomeHeroSub />

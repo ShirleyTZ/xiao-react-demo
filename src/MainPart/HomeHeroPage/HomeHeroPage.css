@@ -134,7 +134,7 @@
 }
 
    /*侧拉框内容*/
-.Home-hero-page-left-contentBox {
+#Home-hero-page-left-contentBox {
   height: 460px;
   visibility: hidden;
 }  
