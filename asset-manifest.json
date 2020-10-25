@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/xiao-react-demo/static/css/main.048b82fd.chunk.css",
+    "main.css": "/xiao-react-demo/static/css/main.4d5e83d1.chunk.css",
     "main.js": "/xiao-react-demo/static/js/main.e21c87c1.chunk.js",
     "main.js.map": "/xiao-react-demo/static/js/main.e21c87c1.chunk.js.map",
     "runtime-main.js": "/xiao-react-demo/static/js/runtime-main.93bb449d.js",
@@ -8,9 +8,9 @@
     "static/js/2.01d5418c.chunk.js": "/xiao-react-demo/static/js/2.01d5418c.chunk.js",
     "static/js/2.01d5418c.chunk.js.map": "/xiao-react-demo/static/js/2.01d5418c.chunk.js.map",
     "index.html": "/xiao-react-demo/index.html",
-    "precache-manifest.3ac19c723f8a4546dc562b149a4babbb.js": "/xiao-react-demo/precache-manifest.3ac19c723f8a4546dc562b149a4babbb.js",
+    "precache-manifest.06f4ab842b3725f1dc62e6f88597a35a.js": "/xiao-react-demo/precache-manifest.06f4ab842b3725f1dc62e6f88597a35a.js",
     "service-worker.js": "/xiao-react-demo/service-worker.js",
-    "static/css/main.048b82fd.chunk.css.map": "/xiao-react-demo/static/css/main.048b82fd.chunk.css.map",
+    "static/css/main.4d5e83d1.chunk.css.map": "/xiao-react-demo/static/css/main.4d5e83d1.chunk.css.map",
     "static/js/2.01d5418c.chunk.js.LICENSE.txt": "/xiao-react-demo/static/js/2.01d5418c.chunk.js.LICENSE.txt",
     "static/media/AccessoriesImgsLeft1.webp": "/xiao-react-demo/static/media/AccessoriesImgsLeft1.1c4ed0b0.webp",
     "static/media/AccessoriesImgsLeft2.webp": "/xiao-react-demo/static/media/AccessoriesImgsLeft2.641cd979.webp",
@@ -150,7 +150,7 @@
   "entrypoints": [
     "static/js/runtime-main.93bb449d.js",
     "static/js/2.01d5418c.chunk.js",
-    "static/css/main.048b82fd.chunk.css",
+    "static/css/main.4d5e83d1.chunk.css",
     "static/js/main.e21c87c1.chunk.js"
   ]
 }

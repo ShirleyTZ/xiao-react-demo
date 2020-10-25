@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "65ae27b0351d66e4e8a462b1f012f3f5",
+    "revision": "f205fd6aab0e1e65b8e0f5bf8d1cbb8f",
     "url": "/xiao-react-demo/index.html"
   },
   {
-    "revision": "7c76ac4a56f0c997981c",
-    "url": "/xiao-react-demo/static/css/main.048b82fd.chunk.css"
+    "revision": "917e6c6c71daf6710d6f",
+    "url": "/xiao-react-demo/static/css/main.4d5e83d1.chunk.css"
   },
   {
     "revision": "5e99d9188046c1b3eb30",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/xiao-react-demo/static/js/2.01d5418c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c76ac4a56f0c997981c",
+    "revision": "917e6c6c71daf6710d6f",
     "url": "/xiao-react-demo/static/js/main.e21c87c1.chunk.js"
   },
   {
