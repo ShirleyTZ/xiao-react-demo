@@ -85,8 +85,12 @@ h2 {
   width: 992px;
   position: absolute;
   bottom: 22px;
-  overflow: hidden;
+  overflow-x: auto;
   display: inline-flex;
+}
+
+.caseWrapper::-webkit-scrollbar {
+  display: none;
 }
 
 .content {
